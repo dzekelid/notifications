@@ -37,7 +37,7 @@ apis:
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-workdocs/action-deletenotificationsubscription-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-workdocs/action-describenotificationsubscriptions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
