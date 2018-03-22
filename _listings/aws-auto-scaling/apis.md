@@ -32,7 +32,7 @@ apis:
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-auto-scaling/action-deletenotificationconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-auto-scaling/action-describeautoscalingnotificationtypes-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
