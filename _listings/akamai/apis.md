@@ -33,7 +33,7 @@ apis:
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/akamai/invoicing-api-v2-accounts-accountid-notifications-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/akamai/invoicing-api-v2-accounts-accountid-notifications-notificationid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
