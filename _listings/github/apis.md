@@ -40,7 +40,7 @@ apis:
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-put.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
