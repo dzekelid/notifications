@@ -28,7 +28,7 @@ apis:
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-read-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
