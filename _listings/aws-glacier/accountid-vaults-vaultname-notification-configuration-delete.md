@@ -1,8 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Delete  Vault  Notifications
   version: 1.0.0
+  description: "DescriptionThis operation deletes the notification configuration set
+    for a vault \n\t\t\tSet Vault Notification Configuration (PUT\n\t\tnotification-configuration).
+    The operation is\n\t\t\teventually consistent&#8212;that is, it might take some
+    time for Amazon Glacier to\n\t\t\tcompletely disable the notifications, and you
+    might still receive some notifications for\n\t\t\ta short time after you send
+    the delete request. RequestsTo delete a vault's notification configuration, send
+    a DELETE request to the\n\t\t\tvault's notification-configuration subresource."
 schemes:
 - http
 produces:
