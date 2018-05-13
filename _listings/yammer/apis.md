@@ -28,7 +28,44 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/yammer/yamuri-streams-notifications-json-get.md
+- name: Yammer API Get Notifications
+  description: Get the notifications feed for the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
+  humanURL: http://developer.yammer.com
+  baseURL: http:://example.com//
+  tags: Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/yammer/yamuri-streams-notifications-json-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/yammer/yamuri-streams-notifications-json-get-postman.md
 x-common:
+- type: x-website
+  url: http://developer.yammer.com
+- type: x-blog
+  url: http://blog.yammer.com
+- type: x-blog-rss
+  url: http://blog.yammer.com/blog/feed
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/yammer
+- type: x-documentation
+  url: https://developer.yammer.com/docs
+- type: x-embeddable
+  url: https://developer.yammer.com/docs/embed
+- type: x-forum
+  url: https://techcommunity.microsoft.com/t5/Yammer/ct-p/Yammer
+- type: x-github
+  url: https://github.com/yammer
+- type: x-partners
+  url: https://developer.yammer.com/v1.0/docs/yammer-partners
+- type: x-status
+  url: http://status.yammer.com/
+- type: x-support
+  url: https://developer.yammer.com/v1.0/page/support
+- type: x-terms-of-service
+  url: https://about.yammer.com/terms/
+- type: x-twitter
+  url: https://twitter.com/yammer
 - type: x-website
   url: http://developer.yammer.com
 - type: x-blog
