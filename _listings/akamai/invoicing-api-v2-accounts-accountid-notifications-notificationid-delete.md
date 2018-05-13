@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Remove a Notification
+  description: Remove a Notification
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Remove a Notification
       operationId: invoicingapiv2accountsaccountidnotificationsnotificationid
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Identifies the account under which data is aggregated
         type: string
-      - in: Integer
+      - in: query
         name: notificationId
         description: Identifies each notification
         type: string
