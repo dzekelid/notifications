@@ -38,15 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-workdocs/action-describenotificationsubscriptions-get.md
-- name: AWS WorkDocs API Delete Notification Subscription
-  description: Deletes the specified subscription from the specified organization.
+- name: AWS WorkDocs API Describe Notification Subscriptions
+  description: Lists the specified notification subscriptions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-workdocs/action-deletenotificationsubscription-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-workdocs/action-describenotificationsubscriptions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
