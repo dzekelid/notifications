@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Create Notification Subscription
   version: 1.0.0
+  description: Configure WorkDocs to use Amazon SNS notifications.
 schemes:
 - http
 produces:
