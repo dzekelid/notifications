@@ -29,7 +29,37 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-clicked-post.md
+- name: Meetup Notifications
+  description: Returns all recent Meetup notifications for the authorized member.
+    To mark notifications read use [/notifications/read](/meetup_api/docs/notifications/read/)
+    endpoint. To get the authenticated Member's current unread count, request it in
+    an [HTTP header](/meetup_api/docs/#meta-headers).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
+  humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com//
+  tags: Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-get.md
 x-common:
+- type: x-base
+  url: http://api.meetup.com
+- type: x-developer
+  url: http://www.meetup.com/meetup_api/
+- type: x-github
+  url: https://github.com/meetup
+- type: x-pricing
+  url: http://www.meetup.com/pricing/
+- type: x-privacy
+  url: http://www.meetup.com/privacy/
+- type: x-support
+  url: http://www.meetup.com/help/
+- type: x-terms-of-service
+  url: http://www.meetup.com/terms/
+- type: x-twitter
+  url: https://twitter.com/MeetupAPI
+- type: x-website
+  url: http://www.meetup.com/
 - type: x-base
   url: http://api.meetup.com
 - type: x-developer
