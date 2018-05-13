@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Delete Notification Subscription
   version: 1.0.0
+  description: Deletes the specified subscription from the specified organization.
 schemes:
 - http
 produces:
