@@ -41,19 +41,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-put.md
-- name: Github Put Notifications Threads  Subscription
+- name: Github Get Repos Owner Repo Notifications
   description: |-
-    Set a Thread Subscription.
-    This lets you subscribe to a thread, or ignore it. Subscribing to a thread
-    is unnecessary if the user is already subscribed to the repository. Ignoring
-    a thread will mute all future notifications (until you comment or get @mentioned).
+    List your notifications in a repository
+    List all notifications for the current user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/notifications-threads-id-subscription-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
