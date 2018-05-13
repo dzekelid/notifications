@@ -26,19 +26,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Notifications Unread
-  description: "Returns a user's unread notifications.\n \nThis method requires an
-    access_token, with a scope containing \"read_inbox\".\n \nThis method returns
-    a list of notifications."
+- name: Stack Exchange Get User Notifications
+  description: "Returns a user's notifications.\n \nThis method requires an access_token,
+    with a scope containing \"read_inbox\".\n \nThis method returns a list of notifications."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/stack-exchange/notifications-unread-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/stack-exchange/users-id-notifications-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/stack-exchange/notifications-unread-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/stack-exchange/users-id-notifications-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
