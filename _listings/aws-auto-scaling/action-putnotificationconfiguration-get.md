@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Put Notification Configuration
   version: 1.0.0
+  description: Configures an Auto Scaling group to send notifications when specified
+    events take place.
 schemes:
 - http
 produces:
