@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Delete Notification Configuration
   version: 1.0.0
+  description: Deletes the specified notification.
 schemes:
 - http
 produces:
