@@ -41,19 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/repos-owner-repo-notifications-put.md
-- name: Github Get Notifications
+- name: Github Put Notifications
   description: |-
-    List your notifications.
-    List all notifications for the current user, grouped by repository.
+    Mark as read.
+    Marking a notification as "read" removes it from the default view on GitHub.com.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/notifications-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/notifications-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/github/notifications-put.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
