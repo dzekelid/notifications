@@ -1,8 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Get  Vault  Notifications
   version: 1.0.0
+  description: "DescriptionThis operation retrieves the notification-configuration
+    subresource set on the\n\t\t\tvault (see Set Vault Notification Configuration
+    (PUT\n\t\tnotification-configuration). If notification configuration for a\n\t\t\tvault
+    is not set, the operation returns a 404 Not Found error. For more\n\t\t\tinformation
+    about vault notifications, see Configuring Vault Notifications in Amazon Glacier.
+    RequestsTo retrieve the notification configuration information, send a GET request
+    to\n\t\t\tthe URI of a vault's notification-configuration subresource."
 schemes:
 - http
 produces:
