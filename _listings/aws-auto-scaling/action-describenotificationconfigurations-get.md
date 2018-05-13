@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Notification Configurations
   version: 1.0.0
+  description: Describes the notification actions associated with the specified Auto
+    Scaling group.
 schemes:
 - http
 produces:
