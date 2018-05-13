@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Notifications
+  description: List Notifications
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Notifications
       operationId: invoicingapiv2accountsaccountidnotifications
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Identifies the account under which data is aggregated
         type: string
