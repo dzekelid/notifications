@@ -28,21 +28,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-glacier/accountid-vaults-vaultname-notification-configuration-put.md
-- name: Amazon Glacier API Delete  Vault  Notifications
-  description: "DescriptionThis operation deletes the notification configuration set
-    for a vault \n\t\t\tSet Vault Notification Configuration (PUT\n\t\tnotification-configuration).
-    The operation is\n\t\t\teventually consistent&#8212;that is, it might take some
-    time for Amazon Glacier to\n\t\t\tcompletely disable the notifications, and you
-    might still receive some notifications for\n\t\t\ta short time after you send
-    the delete request. RequestsTo delete a vault's notification configuration, send
-    a DELETE request to the\n\t\t\tvault's notification-configuration subresource."
+- name: Amazon Glacier API Get  Vault  Notifications
+  description: "DescriptionThis operation retrieves the notification-configuration
+    subresource set on the\n\t\t\tvault (see Set Vault Notification Configuration
+    (PUT\n\t\tnotification-configuration). If notification configuration for a\n\t\t\tvault
+    is not set, the operation returns a 404 Not Found error. For more\n\t\t\tinformation
+    about vault notifications, see Configuring Vault Notifications in Amazon Glacier.
+    RequestsTo retrieve the notification configuration information, send a GET request
+    to\n\t\t\tthe URI of a vault's notification-configuration subresource."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
   humanURL: https://aws.amazon.com/glacier/
   baseURL: http:://{host}//
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-glacier/accountid-vaults-vaultname-notification-configuration-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/aws-glacier/accountid-vaults-vaultname-notification-configuration-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
