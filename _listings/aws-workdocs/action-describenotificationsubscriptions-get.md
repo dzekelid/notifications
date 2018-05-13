@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Describe Notification Subscriptions
   version: 1.0.0
+  description: Lists the specified notification subscriptions.
 schemes:
 - http
 produces:
