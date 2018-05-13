@@ -29,16 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-clicked-post.md
-- name: Meetup Read Notifications
+- name: Meetup Clicked Notifications
   description: Marks groups of [notifications](/meetup_api/docs/notifications/) as
-    read.
+    clicked.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Notifications
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-read-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-clicked-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
