@@ -1,23 +1,43 @@
 ---
 name: Mattermost
+x-slug: mattermost
 description: Open source, private cloud Slack-alternative, Workplace messaging for
   web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure,
   configurable, and scalable from teams to the enterprise.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
 x-kinRank: "8"
 x-alexaRank: "95684"
-tags:
-- Technology
-- SaaS
-- New
-- Networking
-- Enterprise
-- Cloud
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Notifications
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Mattermost API Update channel notifications
+  x-api-slug: mattermost-api
+  description: |-
+    Update a user's notification properties for a channel. Only the provided fields are updated.
+    ##### Permissions
+    Must be logged in as the user or have `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4//channels/{channel_id}/members/{user_id}/notify_props
+  tags: Channel,Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/mattermost/channelschannel-idmembersuser-idnotify-props-put-openapi.md
+- name: Mattermost API
+  x-api-slug: mattermost-api
+  description: Open source, private cloud Slack-alternative, Workplace messaging for
+    web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure,
+    configurable, and scalable from teams to the enterprise.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/mattermost/openapi.md
 x-common:
 - type: x-blog
   url: https://about.mattermost.com/blog/

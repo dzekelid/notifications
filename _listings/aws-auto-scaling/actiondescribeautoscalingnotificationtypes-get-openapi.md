@@ -1,0 +1,66 @@
+---
+swagger: "2.0"
+x-collection-name: AWS Auto Scaling
+x-complete: 0
+info:
+  title: AWS Auto Scaling API Describe Auto Scaling Notification Types
+  version: 1.0.0
+  description: Describes the notification types that are supported by Auto Scaling.
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=DeleteNotificationConfiguration:
+    get:
+      summary: Delete Notification Configuration
+      description: Deletes the specified notification.
+      operationId: deleteNotificationConfiguration
+      x-api-path-slug: actiondeletenotificationconfiguration-get
+      parameters:
+      - in: query
+        name: AutoScalingGroupName
+        description: The name of the Auto Scaling group
+        type: string
+      - in: query
+        name: TopicARN
+        description: The Amazon Resource Name (ARN) of the Amazon Simple Notification
+          Service (SNS) topic
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
+  /?Action=DescribeAutoScalingNotificationTypes:
+    get:
+      summary: Describe Auto Scaling Notification Types
+      description: Describes the notification types that are supported by Auto Scaling.
+      operationId: describeAutoScalingNotificationTypes
+      x-api-path-slug: actiondescribeautoscalingnotificationtypes-get
+      parameters:
+      - in: query
+        name: AutoScalingNotificationTypes.member.N
+        description: The notification types
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Auto Scaling Notifications
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

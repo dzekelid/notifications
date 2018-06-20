@@ -1,23 +1,39 @@
 ---
 name: PagerDuty
-description: 'PagerDuty is the 911 dispatch system for IT, helping operations engineers,
-  DevOps and developers resolve IT system problems as quickly as possible. PagerDuty
-  aggregates errors from all of your IT monitoring tools and handles the people part
-  of the equation: alerting via phone, SMS or email, on-call scheduling and automatic
-  escalation of critical incidents.'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/632_logo.png
+x-slug: pagerduty
+description: See how PagerDuty Digital Operations Management Platform integrates machine
+  data & human intelligence to improve visibility & agility across organizations.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Notifications
-- Monitoring
-- Incident
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/apis.yaml
+x-alexaRank: "19574"
+tags: Notifications
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PagerDuty List notifications
+  x-api-slug: pagerduty
+  description: List notifications for a given time range, optionally filtered by type
+    (sms_notification, email_notification, phone_notification, or push_notification).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com
+  baseURL: https://///notifications
+  tags: Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/notifications-get-openapi.md
+- name: PagerDuty
+  x-api-slug: pagerduty
+  description: See how PagerDuty Digital Operations Management Platform integrates
+    machine data & human intelligence to improve visibility & agility across organizations.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com
+  baseURL: https:///
+  tags: Notifications
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/openapi.md
 x-common:
 - type: x-base
   url: https://acme.pagerduty.com/api/
@@ -27,28 +43,18 @@ x-common:
   url: http://blog.pagerduty.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/pagerduty
-- type: x-developer
-  url: http://developer.pagerduty.com/
-- type: x-github
-  url: https://github.com/PagerDuty
-- type: x-openapi-spec--authoritative
-  url: https://api-reference.pagerduty.com/output.json
-- type: x-pricing
-  url: https://www.pagerduty.com/pricing/
-- type: x-twitter
-  url: https://twitter.com/pagerduty
-- type: x-website
-  url: http://www.pagerduty.com
-- type: x-base
-  url: https://acme.pagerduty.com/api/
-- type: x-blog
-  url: http://blog.pagerduty.com/
-- type: x-blog-rss
-  url: http://blog.pagerduty.com/feed/
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/pagerduty
+  url: https://crunchbase.com/organization/pagerduty
 - type: x-developer
   url: http://developer.pagerduty.com/
+- type: x-email
+  url: info@pagerduty.com
+- type: x-email
+  url: sales@pagerduty.com
+- type: x-email
+  url: support@pagerduty.com
+- type: x-email
+  url: legal@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
 - type: x-openapi-spec--authoritative
