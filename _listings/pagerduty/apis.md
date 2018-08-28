@@ -7,36 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerd
 x-kinRank: "8"
 x-alexaRank: "18918"
 tags: Notifications
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PagerDuty List notifications
-  x-api-slug: pagerduty
+- name: PagerDuty - List notifications
+  x-api-slug: notifications-get
   description: List notifications for a given time range, optionally filtered by type
     (sms_notification, email_notification, phone_notification, or push_notification).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///notifications
-  tags: Notifications
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/notifications-get-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: See how PagerDuty Digital Operations Management Platform integrates
-    machine data & human intelligence to improve visibility & agility across organizations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Notifications
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pagerduty/openapi.md
 x-common:
 - type: x-website
   url: http://www.pagerduty.com/
+- type: x-api-gallery
+  url: http://paccurate.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pagerduty.stack.network
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog

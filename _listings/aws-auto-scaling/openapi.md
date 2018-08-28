@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Auto Scaling
 x-complete: 1
@@ -33,22 +32,6 @@ paths:
           description: OK
       tags:
       - Notifications
-  /?Action=DescribeAutoScalingNotificationTypes:
-    get:
-      summary: Describe Auto Scaling Notification Types
-      description: Describes the notification types that are supported by Auto Scaling.
-      operationId: describeAutoScalingNotificationTypes
-      x-api-path-slug: actiondescribeautoscalingnotificationtypes-get
-      parameters:
-      - in: query
-        name: AutoScalingNotificationTypes.member.N
-        description: The notification types
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Auto Scaling Notifications
   /?Action=DescribeNotificationConfigurations:
     get:
       summary: Describe Notification Configurations
@@ -100,4 +83,19 @@ paths:
           description: OK
       tags:
       - Notifications
----
+  /?Action=DescribeAutoScalingNotificationTypes:
+    get:
+      summary: Describe Auto Scaling Notification Types
+      description: Describes the notification types that are supported by Auto Scaling.
+      operationId: describeAutoScalingNotificationTypes
+      x-api-path-slug: actiondescribeautoscalingnotificationtypes-get
+      parameters:
+      - in: query
+        name: AutoScalingNotificationTypes.member.N
+        description: The notification types
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Auto Scaling Notifications

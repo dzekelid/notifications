@@ -29,6 +29,50 @@ paths:
           description: OK
       tags:
       - Notifications
+  /?Action=DeleteNotificationSubscription:
+    get:
+      summary: Delete Notification Subscription
+      description: Deletes the specified subscription from the specified organization.
+      operationId: deleteNotificationSubscription
+      x-api-path-slug: actiondeletenotificationsubscription-get
+      parameters:
+      - in: query
+        name: OrganizationId
+        description: The ID of the organization
+        type: string
+      - in: query
+        name: SubscriptionId
+        description: The ID of the subscription
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
+  /?Action=DescribeNotificationSubscriptions:
+    get:
+      summary: Describe Notification Subscriptions
+      description: Lists the specified notification subscriptions.
+      operationId: describeNotificationSubscriptions
+      x-api-path-slug: actiondescribenotificationsubscriptions-get
+      parameters:
+      - in: query
+        name: Limit
+        description: The maximum number of items to return with this call
+        type: string
+      - in: query
+        name: Marker
+        description: The marker for the next set of results
+        type: string
+      - in: query
+        name: OrganizationId
+        description: The ID of the organization
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

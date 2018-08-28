@@ -7,58 +7,57 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Notifications
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup Notifications
-  x-api-slug: meetup
+- name: Meetup - Notifications
+  x-api-slug: notifications-get
   description: Returns all recent Meetup notifications for the authorized member.
     To mark notifications read use [/notifications/read](/meetup_api/docs/notifications/read/)
     endpoint. To get the authenticated Member's current unread count, request it in
     an [HTTP header](/meetup_api/docs/#meta-headers).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////notifications
-  tags: Events,Notifications
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notifications-get-openapi.md
-- name: Meetup Read Notifications
-  x-api-slug: meetup
+- name: Meetup - Read Notifications
+  x-api-slug: notificationsread-post
   description: Marks groups of [notifications](/meetup_api/docs/notifications/) as
     read.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////notifications/read
-  tags: Events,Notifications
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notificationsread-post-openapi.md
-- name: Meetup Clicked Notifications
-  x-api-slug: meetup
+- name: Meetup - Clicked Notifications
+  x-api-slug: notificationsclicked-post
   description: Marks groups of [notifications](/meetup_api/docs/notifications/) as
     clicked.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////notifications/clicked
-  tags: Events,Notifications
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/notificationsclicked-post-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com//
-  tags: Notifications
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/meetup/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://medium.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://meetup.stack.network
 - type: x-base
   url: http://api.meetup.com
 - type: x-crunchbase

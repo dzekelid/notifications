@@ -15,26 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /updates/marknotificationsread:
-    post:
-      summary: Post Updates Marknotificationsread
-      description: /updates/notifications
-      operationId: updatesnotifications
-      x-api-path-slug: updatesmarknotificationsread-post
-      parameters:
-      - in: query
-        name: highWatermark
-        description: The timestamp of the most recent notification that the user viewed
-      - in: query
-        name: v
-        description: All requests now accept a v=YYYYMMDD param, which indicates that
-          the client is up to date as of the specified date
-      responses:
-        200:
-          description: OK
-      tags:
-      - S
-      - Marknotificationsread
   /updates/notifications:
     get:
       summary: Get Updates Notifications

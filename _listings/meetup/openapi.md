@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Meetup
 x-complete: 1
 info:
   title: Meetup
-  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -78,4 +76,3 @@ paths:
       tags:
       - Events
       - Notifications
----

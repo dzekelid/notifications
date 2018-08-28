@@ -1,23 +1,15 @@
 ---
 name: Xtify
-description: Xtify provides mobile application publishers with the tools to create,
-  manage and execute push and location-triggered notification campaigns across smartphone
-  platforms. nbsp;Xtify offers the only location-based push notification technology
-  that allows publishers to send notifications to their mobile audience even when
-  the application is closed.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/xtify-logo.png
+x-slug: xtify
+description: For more than a century IBM has been dedicated to every clients success
+  and to creating innovations that matter for the world
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/534-xtify.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Telco
-- Stack Network
-- Push Notifications
-- Notifications
-- Mobile
-- Location
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/notifications/master/_listings/xtify/apis.yaml
+x-alexaRank: "613"
+tags: Notifications
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/xtify/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -26,9 +18,15 @@ x-common:
 - type: x-blog-rss
   url: http://blog.xtify.com/feeds/posts/default?alt=rss
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/ibm
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/xtify
+- type: x-email
+  url: NETSUPP@us.ibm.com
 - type: x-github
   url: https://github.com/Xtify
+- type: x-twitter
+  url: https://twitter.com/IBM
 - type: x-twitter
   url: https://twitter.com/#!/xtify
 - type: x-website

@@ -1,21 +1,15 @@
 ---
 name: PushBots
-description: Keeping users engaged. We keep your app users engaged via push notifications.
-  Talk to your app customers in the most relevant way. PushBots provides reliable
-  delivery, scalability and real-time analytics along with flexible APIs that make
-  custom integration a breeze.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1796_logo.jpg
+x-slug: pushbots
+description: PushBots is a free push notifications service for mobile apps native
+  and hybrid.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1796-pushbots.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Push Notifications
-- Notifications
-- Mobile
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/notifications/master/_listings/pushbots/apis.yaml
+x-alexaRank: "501165"
+tags: Notifications
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/notifications/master/_listings/pushbots/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -26,9 +20,13 @@ x-common:
 - type: x-blog-rss
   url: http://blog.pushbots.com/rss
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/pushbots
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/pushbots
 - type: x-developer
   url: https://pushbots.com/developer
+- type: x-email
+  url: help@pushbots.com
 - type: x-pricing
   url: https://pushbots.com/pricing
 - type: x-twitter
